@@ -16,7 +16,7 @@ export default function Landing() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="relative h-screen bg-inherit">
+    <div className="relative h-dvh bg-gray-200">
       <div className='hidden md:block'>
       <Image src="/hands.png" alt="Klinit" objectFit='contain' fill />
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black" />
@@ -66,7 +66,7 @@ export default function Landing() {
             </h1>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="/booking"
                 className="rounded-full bg-blue-300 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
                 Book now
